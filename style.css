@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: beige;
+    padding: 30px 0;
+}
+header h1{
+  
+    text-align: center;
+}
+.main{
+    background-color: black;
+    padding-top: 61px;
+    padding-bottom: 120px;
+}
+.score-board{
+    border: 2px solid white;
+    width: 100px;
+    margin: 0px auto;
+    color: white;
+    position: relative;
+    padding: 10px;
+    text-align: center;
+}
+.badge{
+    background-color: brown;
+    padding:1px 5px;
+}
+#user-label{
+    position: absolute;
+    top:10px;
+    left: -15px;
+}
+#computer-label{
+    position: absolute;
+    top:10px;
+    right: -25px;
+}
+.result{
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+.choices{
+    display: flex;
+    align-items: center;
+    margin-left:33% ;
+    
+}
+.choice{
+    margin: 10px;
+    
+}
+.choice img{
+width: 100px;
+border: 1px solid white;
+border-radius: 50%;
+}
+p{
+    color: white;
+    text-align: center;
+}
